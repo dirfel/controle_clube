@@ -1,6 +1,6 @@
 # Aplicativo Controle do clube
 
-Esse aplicativo permite o controle dos associados em um clube militar, permite cadastrar o estoque e vendas, bem como gerar o relatório em PDF com os devedores.
+Esse aplicativo permite o controle dos associados em um clube militar do exército, permite cadastrar o estoque e vendas, bem como gerar o relatório em PDF com os devedores.
 O aplicativo é livre e foi pensado para sua execução em PC Windows.
 Se o clube não possui computador windows, não tem problema! O programa foi desenvolvido em FLUTTER, assim posso compilar ele pra qualquer dispositivo (Android, IOS, MAC, Linux, Windows)
 
