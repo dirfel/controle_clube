@@ -1,0 +1,23 @@
+Criar sistema de Vendas
+Criar sistema de adicionar outros valores
+criar sistema de amortizar dívida
+
+
+criar tela de sincronização do frontend
+Criar api de acesso para sincronizações (no backend)
+criar tela de consulta no backend
+criar relatórios no backend
+Sincronização
+    - Militares do sist ti para app
+    - Vendas do app para o sist ti
+    - Dívida do app para o sist ti
+    - gerar relatório de dívida
+
+
+
+
+
+
+Quando for registrar venda, precisa:
+- criar a venda feita
+- Subtrair da quantidade em estoque
