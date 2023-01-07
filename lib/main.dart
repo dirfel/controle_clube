@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: const [
-        Locale('pt', ''), // English, no country code
+        Locale('pt', ''),
       ],
       theme: ThemeData(
         primarySwatch: Colors.brown,
