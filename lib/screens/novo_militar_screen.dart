@@ -196,6 +196,8 @@ class _NovoMilitarScreenState extends State<NovoMilitarScreen> {
                                 .showSnackBar(const SnackBar(content: Text('Agora você já pode acessar')));
                             ScaffoldMessenger.of(context)
                                 .showSnackBar(const SnackBar(content: Text('A identidade será a senha inicial')));
+                            ScaffoldMessenger.of(context)
+                                .showSnackBar(const SnackBar(content: Text('Feche e abra o aplicativo para poder utilizar')));
                             Navigator.of(context).pop();
                           }
 

@@ -360,7 +360,7 @@ class _MensalidadesScreenState extends State<MensalidadesScreen> {
                                   builder: (context) => AlertDialog(
                                     title: const Text('Confirmação'),
                                     content: const Text(
-                                        'Fazendo isso, todos os militares mercados como sócios terão o valor da mensalidade acrecido dos seus débitos.'),
+                                        'Fazendo isso, todos os militares marcados como sócios terão o valor da mensalidade acrecido dos seus débitos.'),
                                     actions: [
                                       ElevatedButton(
                                           onPressed: () async {
@@ -454,6 +454,14 @@ class _MensalidadesScreenState extends State<MensalidadesScreen> {
                                                 await carrinho.finalizarCompra(comprasCarrinho, false);
                                               }
                                             }
+
+                                            Navigator.of(context).pop();
+                                            showDialog(
+                                              context: context,
+                                              builder: (context) => const AlertDialog(
+                                                content: Text('Mensalidades adicionadas com sucesso!'),
+                                              ),
+                                            );
                                           },
                                           child: const Text('Confirmar')),
                                       ElevatedButton(
